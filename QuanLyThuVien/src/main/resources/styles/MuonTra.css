@@ -1,0 +1,71 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+AnchorPane {
+    -fx-background-color: lightblue;
+}
+
+GridPane {  
+    -fx-padding: 10;
+    -fx-font-family: sans-serif;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+HBox {
+    -fx-spacing: 15;
+}
+
+Label {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+TextField,DatePicker,ComboBox{
+    -fx-font-size: 18;
+}
+
+.dt {
+    -fx-background-color:white;
+    -fx-font-size: 18;
+}
+
+Text {
+    -fx-font-size: 40;
+    -fx-stroke-width: 1;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+.id {
+    -fx-text-fill: red;
+    -fx-font-size: 18;
+}
+
+Button {
+   -fx-font-size: 20;
+}
+
+Button.btSreach {
+    -fx-background-color:white;
+}
+
+.btLuu {
+    -fx-background-color: #33CC00;
+    -fx-text-fill: White;
+}
+
+.btHuy {
+    -fx-background-color: red;
+    -fx-text-fill: White;
+}
+
+.btSua {
+    -fx-background-color: #3333FF;
+    -fx-text-fill: White;
+}
+
+TableView {
+    -fx-font-size: 18;
+}
