@@ -1,0 +1,53 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+GridPane {
+    -fx-padding: 20;
+    -fx-background-color: #F8F8FF;
+}
+
+Label {
+    -fx-font-size: 18;
+}
+
+Text {
+    -fx-fill:blue;
+    -fx-font-size: 32;
+    -fx-stroke-width: 1;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+Label.sub {
+    -fx-font-size: 28; 
+    -fx-text-fill: blue;
+    -fx-alignment:center;
+    -fx-font-weight: bold;
+}
+
+TextField,RadioButton {
+    -fx-font-size: 20; 
+}
+
+ComboBox,DatePicker {
+    -fx-font-size: 20; 
+}
+
+Button {
+    -fx-font-size: 20;
+}
+
+.btLuu {
+    -fx-background-color: #33CC00;
+    -fx-text-fill: White;
+}
+
+.btHuy {
+    -fx-background-color: red;
+    -fx-text-fill: White;
+}
+
+TableView {
+    -fx-font-size: 18;
+}
